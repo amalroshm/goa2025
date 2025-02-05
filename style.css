@@ -3,8 +3,10 @@
     --secondary-color: #3498db;
     --accent-color: #e74c3c;
 }
-img{
-    width : 200px;
+img {
+    max-width: 100%; /* Ensures the image is never wider than its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Removes extra space below the image (inline-block default behavior) */
 }
 * {
     margin: 0;
