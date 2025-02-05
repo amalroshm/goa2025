@@ -4,7 +4,7 @@
     --accent-color: #e74c3c;
 }
 img {
-    max-width: 100%; /* Ensures the image is never wider than its container */
+    max-width: 70%; /* Ensures the image is never wider than its container */
     height: auto; /* Maintains the aspect ratio of the image */
     display: block; /* Removes extra space below the image (inline-block default behavior) */
 }
