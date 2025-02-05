@@ -3,7 +3,9 @@
     --secondary-color: #3498db;
     --accent-color: #e74c3c;
 }
-
+img{
+    width : 200px;
+}
 * {
     margin: 0;
     padding: 0;
